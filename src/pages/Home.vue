@@ -1,16 +1,18 @@
 <template>
   <div class="full-width center-content">
-    <img src="/static/img/logo.png" >
-    <welcome-message name="World" />
+    <h1>Vuejs lab</h1>
+    <image-upload />
   </div>
 </template>
 
 <script>
-import WelcomeMessage from 'components/Home/WelcomeMessage'
+import WelcomeMessage from "components/Home/WelcomeMessage"
+import imageUpload from "components/image-upload"
 
 export default {
   components: {
-    WelcomeMessage
+    WelcomeMessage,
+    imageUpload
   }
 }
 </script>
