@@ -18,3 +18,7 @@ This repository is an implementation of the 'Vue.js and Webpack 4 From Scratch' 
   - Static assets processing
   - ESLint for linting
   - Testing using Jest
+
+# Fork
+
+this repo is forked from  [https://github.com/dfcook/vue-webpack4-template] and adjusted to my needs. Basically the eslint rules are changed.
