@@ -1,18 +1,18 @@
 <template>
   <div class="full-width center-content">
-    <h1>Vuejs lab</h1>
-    <image-upload />
+    <WelcomeMessage />
   </div>
 </template>
 
 <script>
-import WelcomeMessage from "components/Home/WelcomeMessage"
-import imageUpload from "components/image-upload"
+import WelcomeMessage from "components/home/welcome-message"
 
 export default {
   components: {
-    WelcomeMessage,
-    imageUpload
+    WelcomeMessage
   }
 }
 </script>
+
+<style lang="stylus">
+</style>
